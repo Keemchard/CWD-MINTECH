@@ -44,6 +44,12 @@ body {
   padding: 0px 10px;
   color: white;
 }
+/*---------- new start --------------*/
+.logo-side a{
+  text-decoration: none;
+  color: white;
+}
+/*---------- new end --------------*/
 .logo-side h1 {
   transition: 0.5s;
 }
