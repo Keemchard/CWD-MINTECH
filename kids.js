@@ -24,32 +24,18 @@ window.onscroll = function () {
     navBar.classList.remove("nav-active");
   }
 };
-//Carousel
-let title = document.querySelector(".title");
-let titleBtn = document.querySelector(".title-btn");
-// let colorCount = 1;
-let count = 1;
-setInterval(function () {
-  document.getElementById("radio" + count).checked = true;
-  // title.classList.toggle("color" + count);
-  // titleBtn.classList.add("color-btn" + count);
 
-  count++;
-  if (count > 4) {
-    count = 1;
-  }
-  // title.classList.toggle("color" + colorCount);
-  // colorCount++;
-  // if(colorCount > 4){
-  //     colorCount = 1;
-  // }
-}, 4000);
-
-//MODAL
+// --------------------CART-----------------
+let addCart = document.querySelectorAll(".add-cart");
 let modal = document.querySelector(".modal");
-window.onload = function () {
-  modal.classList.toggle("show-modal");
-};
+let category = document.querySelector(".category");
+
+// addCart[i].innerHTML = "add to cart";
+for (let i = 0; i < addCart.length; i++) {
+  addCart[i].addEventListener("click", function () {
+    modal.classList.toggle("show-modal");
+  });
+}
 
 let exitcatbtn = document.querySelector(".exit-cat-btn");
 exitcatbtn.addEventListener("click", function () {

@@ -45,7 +45,7 @@ body {
   color: white;
 }
 /*---------- new start --------------*/
-.logo-side a{
+.logo-side a {
   text-decoration: none;
   color: white;
 }
@@ -510,4 +510,38 @@ footer {
   .upper-team-con h1 {
     font-size: 30px;
   }
+}
+
+.cs-1 {
+  background-image: url(images/Team-Carpio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.cs-2 {
+  background-image: url(images/Team-Tamio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cs-3 {
+  background-image: url(images/Team-Santi.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.cs-4 {
+  background-image: url(images/Team-DelosSantos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cs-5 {
+  background-image: url(images/Team-Carpio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cs-6 {
+  background-image: url(images/Team-Carpio.jpg);
+  background-position: center;
+  background-size: cover;
 }
